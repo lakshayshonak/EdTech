@@ -1,0 +1,42 @@
+.sub{
+    margin-top: 2rem;
+}
+.sub h3{
+    text-align: center;
+}
+form{
+    text-align: center;
+    margin: 0.4rem 2rem;
+}
+.email-sub{
+    padding: 0.2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px; 
+}
+.email-sub :focus{
+    border: 1px solid var(--secondary-color);
+    outline:black;
+}
+.submit-btn{
+    background-color: var(--primary-color);
+    color: #111;
+    padding: 0.3rem;
+    margin: 0 0.5rem;
+    border: crimson;
+    border-radius: 2px;
+    cursor:pointer
+}
+.submit-btn:hover{
+    background-color: #095cf7;
+}
+footer{
+    border-top: 1px solid #f1f1f1;
+    box-shadow: 0px -2px 3px #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+}
+.add{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
